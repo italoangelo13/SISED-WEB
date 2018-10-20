@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="assets/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="assets/fontello/css/fontello.css" type="text/css" rel="stylesheet">
+    <link href="assets/fontello/css/animation.css" type="text/css" rel="stylesheet">
+    <title>SISED</title>
+    <style>
+        body{
+            background: rgba(73,155,234,1);
+            background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+            background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+            background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+            background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+            background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+        }
+
+        #box{
+            border:2px solid gainsboro;
+            background: #fff;
+            border-radius: 10px;
+            margin-top: 80px;
+            max-width:380px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4"> 
+                <div class="container-fluid" id="box">
+                    <div class="row alert-success">
+                        <div class="col-lg-12 text-center">
+                            <h4>Acesso ao Sistema</h4>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top: 15px;">
+                        <div class="col-lg-12">
+                            <img src="assets/imgs/logo-padrao.png" alt="Sua Logo" width="100%">
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top: 15px;">
+                        <div class="col-lg-12">
+                            <i class="icone-user"></i>Usuario
+                        </div>
+                        <div class="col-lg-12">
+                            <input type="text" name="user" id="user" class="form-control form-control-lg">
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top: 15px;">
+                        <div class="col-lg-12">
+                            <i class="icone-key"></i>Senha
+                        </div>
+                        <div class="col-lg-12">
+                            <input type="password" name="pass" id="pass" class="form-control form-control-lg">
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top: 15px;">
+                        <div class="col-lg-12">
+                            <button class="btn btn-primary btn-block">Acessar</button>
+                        </div>
+                    </div>
+
+                    <div class="row alert-secondary" style="margin-top: 15px;">
+                        <div class="col-lg-12 text-center">
+                            <h6>Versão 01.00.00</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+    </div>
+
+
+    <script src="assets/scripts/jquery-3.3.1.min.js"></script>
+    <script src="assets/scripts/popper.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/scripts/Auth/login.js"></script>
+</body>
+</html>

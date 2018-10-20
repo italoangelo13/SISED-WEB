@@ -1,0 +1,3 @@
+function autenticar(user,pass){
+    
+}

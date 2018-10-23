@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="assets/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="assets/jquery-confirm/jquery-confirm.min.css" type="text/css" rel="stylesheet">
+    <link href="assets/jquery-loader/jquery.loading.min.css" type="text/css" rel="stylesheet">
     <link href="assets/fontello/css/fontello.css" type="text/css" rel="stylesheet">
     <link href="assets/fontello/css/animation.css" type="text/css" rel="stylesheet">
     <title>SISED</title>
@@ -68,7 +70,7 @@
 
                     <div class="row" style="margin-top: 15px;">
                         <div class="col-lg-12">
-                            <button class="btn btn-primary btn-block">Acessar</button>
+                            <button class="btn btn-primary btn-block" onclick="autenticar('#user','#pass')">Acessar</button>
                         </div>
                     </div>
 
@@ -87,6 +89,9 @@
     <script src="assets/scripts/jquery-3.3.1.min.js"></script>
     <script src="assets/scripts/popper.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/jquery-confirm/jquery-confirm.min.js"></script>
+    <script src="assets/jquery-loader/jquery.loading.min.js"></script>
+    <script src="assets/scripts/util.js"></script>
     <script src="assets/scripts/Auth/login.js"></script>
 </body>
 </html>
